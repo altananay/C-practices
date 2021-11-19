@@ -68,5 +68,6 @@ int main()
 	print(ptr, n);
 	bubbleSort(ptr, n);
 	print(ptr, n);
+	free(ptr);
 	return 0;
 }
